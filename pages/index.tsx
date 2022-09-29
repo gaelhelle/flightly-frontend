@@ -5,17 +5,17 @@ import InfoQRCode from "../components/InfoQRCode";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container lg:pr-[200px] mx-auto lg:mx-0">
       <Head>
         <title>Flightly | Flights alerts in Canada</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="h-screen">
-        <header className="fixed px-32 top-10">
+        <header className="px-14 top-10 mt-10 lg:px-32 lg:fixed lg:mt-0">
           <Image src="/img/logo-header.svg" width="90" height="11" />
         </header>
-        <main className="w-[700px] mx-auto flex items-center justify-center h-full">
+        <main className="lg:w-[900px] mx-auto flex items-center justify-center py-20 pt-8 lg:py-0 lg:pt-0 lg:h-full px-10 lg:px-0">
           <div>
             <InfoBanner text="Available in October" />
             <h2 className="text-3xl font-bold mb-2">
@@ -41,8 +41,8 @@ export default function Home() {
             </div>
           </div>
         </main>
-        <aside className="absolute right-0 -top-0 bottom-0 h-full from-[#ED2DC1] to-[#D93DDD] bg-gradient-135 w-[500px]">
-          <div className="custom-shape-divider-top-1664480058 h-full overflow-y-hidden">
+        <aside className="lg:absolute lg:-right-40 xl:right-0 -top-0 bottom-0 lg:h-full from-[#ED2DC1] to-[#D93DDD] bg-gradient-135 w-full lg:w-[300px] xl:w-[500px]">
+          <div className="hidden lg:block custom-shape-divider-top-1664480058 h-full overflow-y-hidden">
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ export default function Home() {
               ></path>
             </svg>
           </div>
-          <div className="absolute flex items-center justify-center h-full right-32 w-[720px]">
+          <div className="relative mt-20 lg:mt-0 lg:absolute -top-20 lg:top-0 flex items-center justify-center h-full lg:right-32 lg:w-[720px]">
             <div>
               <Image src="/img/mockup-phones.png" width="789" height="646" />
             </div>
