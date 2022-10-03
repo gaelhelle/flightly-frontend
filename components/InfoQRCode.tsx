@@ -10,7 +10,7 @@ const InfoQRCode = (props: Props) => {
       </h5>
       <div className="relative">
         <div className="rounded transition p-2 hover:scale-[4] hover:bg-white border-2 origin-bottom-right">
-          <Image src="/img/qr-code.png" width="53" height="53" />
+          {/* <Image src="/img/qr-code.png" width="53" height="53" /> */}
         </div>
       </div>
     </div>
