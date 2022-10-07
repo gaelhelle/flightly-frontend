@@ -6,7 +6,7 @@ const InfoBanner = (props: Props) => {
   const { text } = props;
 
   return (
-    <div className="bg-sky-100 rounded-md px-4 py-4 mb-10 text-sky-600 font-medium">
+    <div className="bg-sky-100 rounded-md px-4 py-2 mb-10 text-sky-600 text-sm">
       <div className="flex items-center space-x-4">
         <div>
           <svg
